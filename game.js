@@ -19,7 +19,6 @@ function setup() {
   resizeCanvas(window.innerWidth, window.innerHeight-100)
   richard = new Richard();
   level = localStorage.getItem('level')
-  level = localStorage.getItem('level')
   if(level == 1 ){
   for (let i = 0; i < number_aliens; i++) {
     antirichard.push(new Nani());
